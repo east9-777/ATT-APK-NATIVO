@@ -1,0 +1,341 @@
+[2026-08-22 23:27:09.315] [info] Initializing java..
+[2026-08-22 23:27:09.315] [info] Initializing Alyn_SAMPMOBILE client...
+[2026-08-22 23:27:09.390] [info] Crash logs on device: 0 (retained, none deleted) in 0ms
+[2026-08-22 23:27:09.390] [error] ClientSecurity: installation identity refused
+[2026-08-22 23:27:09.391] [info] Java VM: 0xB40000757D661A80
+[2026-08-22 23:27:09.391] [info] Client version: v20.6.8 (native: 8a1c7a316f7f)
+[2026-08-22 23:27:09.391] [info] Game version: GTA: SA v2.10 (arm64-v8a)
+[2026-08-22 23:27:09.391] [info] Game directory: /storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/
+[2026-08-22 23:27:09.391] [info] Offline mode: false
+[2026-08-22 23:27:09.391] [info] Initializing settings...
+[2026-08-22 23:27:09.393] [info] FPS limit: 61
+[2026-08-22 23:27:09.393] [info] Display FPS: false
+[2026-08-22 23:27:09.393] [info] Voice chat: false
+[2026-08-22 23:27:09.393] [info] Microphone toggle: false
+[2026-08-22 23:27:09.393] [info] Auto reconnect: true
+[2026-08-22 23:27:09.393] [info] GPS mod: false
+[2026-08-22 23:27:09.393] [info] Radar touch: true
+[2026-08-22 23:27:09.393] [info] Weapon tags: true
+[2026-08-22 23:27:09.393] [info] Free cam: false
+[2026-08-22 23:27:09.393] [info] Sensitivity on foot: 10
+[2026-08-22 23:27:09.393] [info] Sensitivity in vehicle: 10
+[2026-08-22 23:27:09.393] [info] Sensitivity aim: 10
+[2026-08-22 23:27:09.393] [info] Legacy static GCID auth: false
+[2026-08-22 23:27:09.393] [info] SA-MP version: 0.3.7
+[2026-08-22 23:27:09.393] [info] Loading libGTASA.so...
+[2026-08-22 23:27:09.393] [info] Memory::open: dlopen("libGTASA.so") = 0xf42c23ed1d77244d
+[2026-08-22 23:27:09.394] [info] Memory::open: getLibAddrFor("libGTASA.so") = 0x710EC79000
+[2026-08-22 23:27:09.394] [info] libGTASA.so base: 0x710EC79000
+[2026-08-22 23:27:09.394] [info] Crashlytics initialized in 0ms
+[2026-08-22 23:27:09.394] [info] Loading BASS library..
+[2026-08-22 23:27:09.395] [info] Initializing SA...
+[2026-08-22 23:27:09.395] [info] CModelInfo::Initialize
+[2026-08-22 23:27:09.395] [info] CPlaceable::Initialize
+[2026-08-22 23:27:09.395] [info] CWorld::Initialize
+[2026-08-22 23:27:09.395] [info] CPools::Initialize
+[2026-08-22 23:27:09.395] [info] CRealTimeShadowManager::Initialize
+[2026-08-22 23:27:09.396] [info] Applying patches...
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710efdef10 bytes: 84 d2 fa 97 
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710f14eb00 bytes: f3 0f 1e f8 
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710f24dab4 bytes: fd 7b bf a9 
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710efdc454 bytes: bf 24 fb 97 
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710efdc4a4 bytes: ab 24 fb 97 
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710f1d074c bytes: 88 01 00 b9 
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710f155d6c bytes: 80 02 00 37 
+[2026-08-22 23:27:09.396] [info] Memory::saveBytesToMap addr: 0x710f155e00 bytes: 80 02 00 37 
+[2026-08-22 23:27:09.398] [info] Memory::saveBytesToMap addr: 0x710ef00d24 bytes: 49 2e 00 90 
+[2026-08-22 23:27:09.398] [info] Memory::saveBytesToMap addr: 0x710f16889c bytes: ff c3 01 d1 
+[2026-08-22 23:27:09.398] [info] Memory::saveBytesToMap addr: 0x710f13b0a4 bytes: f7 0f 1c f8 
+[2026-08-22 23:27:09.398] [info] Memory::saveBytesToMap addr: 0x710f1953e0 bytes: ff 03 01 d1 
+[2026-08-22 23:27:09.398] [info] Memory::saveBytesToMap addr: 0x710f195488 bytes: e9 23 bc 6d 
+[2026-08-22 23:27:09.398] [info] Memory::saveBytesToMap addr: 0x710f197ad8 bytes: ff 03 01 d1 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f03d638 bytes: ff 43 05 d1 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f03d728 bytes: ff 83 05 d1 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f03c4ac bytes: ff 03 02 d1 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f03c45c bytes: f3 0f 1e f8 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f247b40 bytes: ff c3 01 d1 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f249d4c bytes: ff 03 02 d1 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f23c970 bytes: 68 32 06 b9 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f294044 bytes: ff 03 02 d1 
+[2026-08-22 23:27:09.399] [info] Memory::saveBytesToMap addr: 0x710f2ed610 bytes: 40 a3 ee 97 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f2fbc1c bytes: bd 69 ee 97 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f306d0c bytes: 81 3d ee 97 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f319a68 bytes: 2a f2 ed 97 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f3833d0 bytes: 40 80 ec 97 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f2fe9bc bytes: a8 00 00 54 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f1697dc bytes: 59 da f4 97 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f0eb904 bytes: ff 43 03 d1 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f3158f4 bytes: ff c3 02 d1 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f1cfe14 bytes: ff 83 00 d1 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f04558c bytes: f5 0f 1d f8 
+[2026-08-22 23:27:09.400] [info] Memory::saveBytesToMap addr: 0x710f169c94 bytes: 08 00 40 f9 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f19e22c bytes: c5 20 f4 97 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f19ee14 bytes: cb 1d f4 97 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f17ebf8 bytes: e9 23 bb 6d 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f38361c bytes: f5 0f 1d f8 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f24d338 bytes: ff 03 01 d1 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f24d2d8 bytes: f5 0f 1d f8 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f214ad0 bytes: 58 0b f2 97 08 3c 46 39 28 06 00 34 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f2cda8c bytes: e8 0f 1b fc 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f024b3c bytes: f3 0f 1e f8 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f309560 bytes: f4 4f be a9 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710f0f4340 bytes: f5 0f 1d f8 
+[2026-08-22 23:27:09.401] [info] Memory::saveBytesToMap addr: 0x710efb0a2c bytes: 00 01 00 f9 
+[2026-08-22 23:27:09.401] [info] Installing hooks...
+[2026-08-22 23:27:09.401] [info] Initializing XclipseFix fix...
+[2026-08-22 23:27:09.401] [info] XclipseFix RQ_Command_rqInit hook installed
+[2026-08-22 23:27:09.405] [info] SetMoveAnim: reimplementation installed
+[2026-08-22 23:27:09.405] [info] SafeCTaskSimpleUseGunCtor: redirect installed (BUGS/3 A75 errata mitigation)
+[2026-08-22 23:27:09.406] [info] Installing pickup hooks...
+[2026-08-22 23:27:09.407] [info] Installing remove building hooks...
+[2026-08-22 23:27:09.407] [info] MapLimits: installing out-of-bounds world support
+[2026-08-22 23:27:09.407] [info] MapLimits: CIplStore bounds -> +/-10000 @ 0x739070
+[2026-08-22 23:27:09.407] [info] MapLimits: installing SA-MP style object drawing
+[2026-08-22 23:27:09.407] [info] Installing pad hooks...
+[2026-08-22 23:27:09.408] [info] Installing widget fix hooks...
+[2026-08-22 23:27:09.408] [info] Installing crosshair fix hooks...
+[2026-08-22 23:27:09.408] [info] Initializing multi touch..
+[2026-08-22 23:27:09.408] [info] NVEventQueue @ 710f52f108 insertIdx=0 headIdx=0 processingPause=0 finishing=0
+[2026-08-22 23:27:09.408] [info] NVEvent: ring buffer bypass active (consumer-side, no producer patches)
+[2026-08-22 23:27:09.408] [info] NVEvent: NVEventInsertNewest hooked (killed flag bypass)
+[2026-08-22 23:27:09.408] [info] Game::Game
+[2026-08-22 23:27:09.408] [info] Client::initialize finished in 93ms
+[2026-08-22 23:27:10.333] [info] CTimer_EndUserPause
+[2026-08-22 23:27:10.353] [error] OS_FileOpen failed (1): gta_sa.set
+[2026-08-22 23:27:10.353] [error] OS_FileOpen failed (1): gtasatelem.set
+[2026-08-22 23:27:10.354] [info] RenderQueue_Initialize
+[2026-08-22 23:27:10.357] [info] XclipseFix probe #1: manufacturer=samsung brand=samsung model=SM-A715F product=a71nsxx device=a71 board=sm6150 hardware=qcom socManufacturer=QTI socModel=SM7150 sdk=33
+[2026-08-22 23:27:10.357] [info] XclipseFix GL #1: vendor=Qualcomm renderer=Adreno (TM) 618 version=OpenGL ES 3.2 V@0502.0 (GIT@e1ac91e, I2b3b5fbd00, 1605636002) (Date:11/17/20) eglDisplay=0xB40000757D6DBA00 eglContext=0xB40000749CE50C80 eglSurface=0xB40000749CE7E000 extS3TC=false extDXT1=false extATC=true extPVRTC=false
+[2026-08-22 23:27:10.357] [info] XclipseFix decision #1: rendererMatched=false samsungAmdMatched=false modelMatched=false reason=no-match shouldApply=false
+[2026-08-22 23:27:10.357] [info] XclipseFix workaround skipped #1
+[2026-08-22 23:27:10.358] [info] Initialise3D...
+[2026-08-22 23:27:10.361] [info] MatFX material free-list blocks pinned for streaming safety
+[2026-08-22 23:27:10.361] [info] Initializing samp texture database...
+[2026-08-22 23:27:10.437] [error] OS_FileOpen failed (1): texdb/cutscene/cutscene.txt
+[2026-08-22 23:27:10.470] [info] ImGuiWrapper::initialize
+[2026-08-22 23:27:10.471] [info] ImGuiWrapper display=1732x810 fontsPath=/storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/fonts/
+[2026-08-22 23:27:10.476] [info] ImGui IO configured: display=1732x810 framebufferScale=(1.0,1.0) backendFlags=0x8 rendererName=alyn_renderware
+[2026-08-22 23:27:10.476] [info] Body font selection begin: uiFontSize=43.9px bodyFontSize=21.9px outline=1.00 scale=(2.706,1.688)
+[2026-08-22 23:27:10.476] [info] Font load attempt: path=/storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/fonts/arial_bold.ttf size=21.9px rasterDensity=1.00 file=352224 bytes rangeCodepoints=3488 outlineAdvance=1.00 fontsBefore=0 sourcesBefore=0
+[2026-08-22 23:27:10.486] [info] Font load OK: path=/storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/fonts/arial_bold.ttf font=0xB4000074AD426020 legacy=21.9px fontsAfter=1 sourcesAfter=1 debugName=arial_bold.ttf
+[2026-08-22 23:27:10.486] [info] Body font selected: font=0xB4000074AD426020 debug=arial_bold.ttf legacy=21.9px
+[2026-08-22 23:27:10.486] [info] Font load attempt: path=/storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/fonts/gtaweap3.ttf size=21.9px rasterDensity=1.00 file=104004 bytes rangeCodepoints=3488 outlineAdvance=1.00 fontsBefore=1 sourcesBefore=1
+[2026-08-22 23:27:10.487] [info] Font load OK: path=/storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/fonts/gtaweap3.ttf font=0xB4000074AD426090 legacy=21.9px fontsAfter=2 sourcesAfter=2 debugName=gtaweap3.ttf
+[2026-08-22 23:27:10.487] [info] Weapon font selected: font=0xB4000074AD426090 fallbackToBody=0 debug=gtaweap3.ttf
+[2026-08-22 23:27:10.487] [info] Font load attempt: path=/storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/fonts/sampaux3.ttf size=21.9px rasterDensity=1.00 file=7376 bytes rangeCodepoints=3488 outlineAdvance=1.00 fontsBefore=2 sourcesBefore=2
+[2026-08-22 23:27:10.488] [info] Font load OK: path=/storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/fonts/sampaux3.ttf font=0xB4000074AD426100 legacy=21.9px fontsAfter=3 sourcesAfter=3 debugName=sampaux3.ttf
+[2026-08-22 23:27:10.488] [info] SA-MP auxiliary font selected: font=0xB4000074AD426100 fallbackToBody=0 debug=sampaux3.ttf
+[2026-08-22 23:27:10.488] [info] ImGui FontDefault set: font=0xB4000074AD426020
+[2026-08-22 23:27:10.488] [info] ImGuiWrapper::buildAtlasDeferred begin: bodySize=21.9px body=0xB4000074AD426020 weapon=0xB4000074AD426090 samp=0xB4000074AD426100 fontDefault=0xB4000074AD426020
+[2026-08-22 23:27:10.488] [info] Font atlas diag [build-begin]: fonts=3 sources=3 texList=1 built=0 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=8192x8192 desiredFormat=0 texId=0x0 texUnique=1 status=2(WantCreate) fmt=0 512x128 bpp=4 pixels=0xB40000713B7E3BC0 bytes=262144 updates=0 used=(0,0 0x0) update=(65535,65535 0x0) useColors=0 uvScale=(0.001953,0.007812) white=(0.069336,0.003906)
+[2026-08-22 23:27:10.488] [info] Font diag [build-begin:body]: font=0xB4000074AD426020 debug=arial_bold.ttf legacy=21.9px flags=0x0 sources=1 fallback=U+3F requested=21.9px baked=not-inspected
+[2026-08-22 23:27:10.488] [info] Font diag [build-begin:weapon]: font=0xB4000074AD426090 debug=gtaweap3.ttf legacy=21.9px flags=0x0 sources=1 fallback=U+3F requested=21.9px baked=not-inspected
+[2026-08-22 23:27:10.488] [info] Font diag [build-begin:sampaux]: font=0xB4000074AD426100 debug=sampaux3.ttf legacy=21.9px flags=0x0 sources=1 fallback=U+20 requested=21.9px baked=not-inspected
+[2026-08-22 23:27:10.488] [warning] GL_MAX_TEXTURE_SIZE=0 — likely no current GL context at atlas-build time; falling back to tight atlas (limited CJK, trimmed emoji)
+[2026-08-22 23:27:10.489] [info] RenderWare font atlas cap forced to 2048x2048 for local raster creation
+[2026-08-22 23:27:10.489] [info] Script font merge begin: body=0xB4000074AD426020 size=21.9px tight=1 fontsBefore=3 sourcesBefore=3
+[2026-08-22 23:27:10.489] [info] Latin/Cyrillic fallback candidate missing: /system/fonts/NotoSans-Regular.ttf errno=2
+[2026-08-22 23:27:10.489] [info] Latin/Cyrillic fallback merge attempt: path=/system/fonts/Roboto-Regular.ttf size=21.9px rasterDensity=1.00 file=2370200 bytes glyphRangeCodepoints=1120 fontsBefore=3 sourcesBefore=3
+[2026-08-22 23:27:10.502] [info] Merged Latin/Cyrillic fallback font: /system/fonts/Roboto-Regular.ttf target=0xB4000074AD426020 returned=0xB4000074AD426020 sourcesAfter=4
+[2026-08-22 23:27:10.502] [info] Latin/Cyrillic fallback merge summary: merged=1 missingCandidates=1
+[2026-08-22 23:27:10.502] [info] Script merge attempt: Thai path=/system/fonts/NotoSansThai-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=21380 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=4
+[2026-08-22 23:27:10.503] [info] Merged script font: Thai (/system/fonts/NotoSansThai-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.503] [info] Script merge attempt: Lao path=/system/fonts/NotoSansLao-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=18956 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=5
+[2026-08-22 23:27:10.504] [info] Merged script font: Lao (/system/fonts/NotoSansLao-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.504] [info] Script merge attempt: Lao UI path=/system/fonts/NotoSansLaoUI-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=19400 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=6
+[2026-08-22 23:27:10.505] [info] Merged script font: Lao UI (/system/fonts/NotoSansLaoUI-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.505] [info] Script merge attempt: Hebrew path=/system/fonts/NotoSansHebrew-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=17352 bytes glyphRangeCodepoints=163 heavy=0 fontsBefore=3 sourcesBefore=7
+[2026-08-22 23:27:10.505] [info] Merged script font: Hebrew (/system/fonts/NotoSansHebrew-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.505] [info] Script merge attempt: Arabic UI path=/system/fonts/NotoNaskhArabicUI-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=120800 bytes glyphRangeCodepoints=1136 heavy=0 fontsBefore=3 sourcesBefore=8
+[2026-08-22 23:27:10.505] [info] Merged script font: Arabic UI (/system/fonts/NotoNaskhArabicUI-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.505] [info] Script merge attempt: Arabic path=/system/fonts/NotoNaskhArabic-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=116716 bytes glyphRangeCodepoints=1136 heavy=0 fontsBefore=3 sourcesBefore=9
+[2026-08-22 23:27:10.505] [info] Merged script font: Arabic (/system/fonts/NotoNaskhArabic-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.506] [info] Script font candidate missing: Arabic (sans) (/system/fonts/NotoSansArabic-Regular.ttf) errno=2
+[2026-08-22 23:27:10.506] [info] Script merge attempt: Devanagari UI path=/system/fonts/NotoSansDevanagariUI-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=247460 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=10
+[2026-08-22 23:27:10.509] [info] Merged script font: Devanagari UI (/system/fonts/NotoSansDevanagariUI-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.509] [info] Script font candidate missing: Devanagari (/system/fonts/NotoSansDevanagari-Regular.ttf) errno=2
+[2026-08-22 23:27:10.509] [info] Script merge attempt: Bengali UI path=/system/fonts/NotoSansBengaliUI-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=246772 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=11
+[2026-08-22 23:27:10.512] [info] Merged script font: Bengali UI (/system/fonts/NotoSansBengaliUI-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.512] [info] Script font candidate missing: Bengali (/system/fonts/NotoSansBengali-Regular.ttf) errno=2
+[2026-08-22 23:27:10.513] [info] Script merge attempt: Tamil UI path=/system/fonts/NotoSansTamilUI-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=82396 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=12
+[2026-08-22 23:27:10.514] [info] Merged script font: Tamil UI (/system/fonts/NotoSansTamilUI-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.514] [info] Script font candidate missing: Tamil (/system/fonts/NotoSansTamil-Regular.ttf) errno=2
+[2026-08-22 23:27:10.514] [info] Script merge attempt: Telugu UI path=/system/fonts/NotoSansTeluguUI-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=281968 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=13
+[2026-08-22 23:27:10.518] [info] Merged script font: Telugu UI (/system/fonts/NotoSansTeluguUI-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.518] [info] Script font candidate missing: Telugu (/system/fonts/NotoSansTelugu-Regular.ttf) errno=2
+[2026-08-22 23:27:10.518] [info] Script merge attempt: Sinhala UI path=/system/fonts/NotoSansSinhalaUI-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=358268 bytes glyphRangeCodepoints=128 heavy=0 fontsBefore=3 sourcesBefore=14
+[2026-08-22 23:27:10.519] [info] Merged script font: Sinhala UI (/system/fonts/NotoSansSinhalaUI-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.520] [info] Script font candidate missing: Sinhala (/system/fonts/NotoSansSinhala-Regular.ttf) errno=2
+[2026-08-22 23:27:10.520] [info] Script merge attempt: Khmer UI path=/system/fonts/NotoSansKhmerUI-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=37932 bytes glyphRangeCodepoints=160 heavy=0 fontsBefore=3 sourcesBefore=15
+[2026-08-22 23:27:10.521] [info] Merged script font: Khmer UI (/system/fonts/NotoSansKhmerUI-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.521] [info] Script font candidate missing: Khmer (/system/fonts/NotoSansKhmer-Regular.ttf) errno=2
+[2026-08-22 23:27:10.521] [info] Script merge attempt: Myanmar OTF path=/system/fonts/NotoSansMyanmar-Regular.otf size=21.9px scale=1.00 rasterDensity=1.00 file=110380 bytes glyphRangeCodepoints=224 heavy=0 fontsBefore=3 sourcesBefore=16
+[2026-08-22 23:27:10.521] [info] Merged script font: Myanmar OTF (/system/fonts/NotoSansMyanmar-Regular.otf) at 21.9px
+[2026-08-22 23:27:10.521] [info] Script font candidate missing: Myanmar (/system/fonts/NotoSansMyanmar-Regular.ttf) errno=2
+[2026-08-22 23:27:10.521] [info] Script merge attempt: Javanese path=/system/fonts/NotoSansJavanese-Regular.otf size=21.9px scale=1.00 rasterDensity=1.00 file=86944 bytes glyphRangeCodepoints=96 heavy=0 fontsBefore=3 sourcesBefore=17
+[2026-08-22 23:27:10.522] [info] Merged script font: Javanese (/system/fonts/NotoSansJavanese-Regular.otf) at 21.9px
+[2026-08-22 23:27:10.522] [info] Script merge attempt: Sundanese path=/system/fonts/NotoSansSundanese-Regular.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=10356 bytes glyphRangeCodepoints=64 heavy=0 fontsBefore=3 sourcesBefore=18
+[2026-08-22 23:27:10.522] [info] Merged script font: Sundanese (/system/fonts/NotoSansSundanese-Regular.ttf) at 21.9px
+[2026-08-22 23:27:10.522] [info] Script merge attempt: Georgian VF path=/system/fonts/NotoSansGeorgian-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=63180 bytes glyphRangeCodepoints=144 heavy=0 fontsBefore=3 sourcesBefore=19
+[2026-08-22 23:27:10.522] [info] Merged script font: Georgian VF (/system/fonts/NotoSansGeorgian-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.522] [info] Script font candidate missing: Georgian (/system/fonts/NotoSansGeorgian-Regular.ttf) errno=2
+[2026-08-22 23:27:10.522] [info] Script merge attempt: Armenian VF path=/system/fonts/NotoSansArmenian-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=33844 bytes glyphRangeCodepoints=101 heavy=0 fontsBefore=3 sourcesBefore=20
+[2026-08-22 23:27:10.522] [info] Merged script font: Armenian VF (/system/fonts/NotoSansArmenian-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.522] [info] Script font candidate missing: Armenian (/system/fonts/NotoSansArmenian-Regular.ttf) errno=2
+[2026-08-22 23:27:10.522] [info] Script merge attempt: Ethiopic VF path=/system/fonts/NotoSansEthiopic-VF.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=448888 bytes glyphRangeCodepoints=384 heavy=0 fontsBefore=3 sourcesBefore=21
+[2026-08-22 23:27:10.525] [info] Merged script font: Ethiopic VF (/system/fonts/NotoSansEthiopic-VF.ttf) at 21.9px
+[2026-08-22 23:27:10.525] [info] Script font candidate missing: Ethiopic (/system/fonts/NotoSansEthiopic-Regular.ttf) errno=2
+[2026-08-22 23:27:10.526] [info] Script merge attempt: CJK probe path=/system/fonts/NotoSansCJK-Regular.ttc size=21.9px scale=1.00 rasterDensity=1.00 file=19474972 bytes glyphRangeCodepoints=301 heavy=0 fontsBefore=3 sourcesBefore=22
+[2026-08-22 23:27:10.654] [info] Merged script font: CJK probe (/system/fonts/NotoSansCJK-Regular.ttc) at 21.9px
+[2026-08-22 23:27:10.654] [info] Script font candidate missing: CJK probe fallback (/system/fonts/DroidSansFallback.ttf) errno=2
+[2026-08-22 23:27:10.654] [info] Script merge attempt: Symbols probe path=/system/fonts/NotoSansSymbols-Regular-Subsetted.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=708968 bytes glyphRangeCodepoints=18 heavy=0 fontsBefore=3 sourcesBefore=23
+[2026-08-22 23:27:10.657] [info] Merged script font: Symbols probe (/system/fonts/NotoSansSymbols-Regular-Subsetted.ttf) at 21.9px
+[2026-08-22 23:27:10.658] [info] Script merge attempt: Symbols2 probe path=/system/fonts/NotoSansSymbols-Regular-Subsetted2.ttf size=21.9px scale=1.00 rasterDensity=1.00 file=32996 bytes glyphRangeCodepoints=18 heavy=0 fontsBefore=3 sourcesBefore=24
+[2026-08-22 23:27:10.658] [info] Merged script font: Symbols2 probe (/system/fonts/NotoSansSymbols-Regular-Subsetted2.ttf) at 21.9px
+[2026-08-22 23:27:10.658] [info] Skipping heavy script font on tight atlas: CJK (Chinese/Japanese) (/system/fonts/NotoSansCJK-Regular.ttc)
+[2026-08-22 23:27:10.658] [info] Skipping heavy script font on tight atlas: CJK (DroidSans fallback) (/system/fonts/DroidSansFallback.ttf)
+[2026-08-22 23:27:10.658] [info] Skipping heavy script font on tight atlas: Symbols (/system/fonts/NotoSansSymbols-Regular-Subsetted.ttf)
+[2026-08-22 23:27:10.658] [info] Script font merge summary: merged=21 missing=12 skippedHeavy=3 failed=0 fontsAfter=3 sourcesAfter=25
+[2026-08-22 23:27:10.658] [info] Font atlas diag [after-script-merge]: fonts=3 sources=25 texList=1 built=0 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=2048x2048 desiredFormat=0 texId=0x0 texUnique=1 status=2(WantCreate) fmt=0 512x128 bpp=4 pixels=0xB40000713B7E3BC0 bytes=262144 updates=0 used=(0,0 0x0) update=(65535,65535 0x0) useColors=0 uvScale=(0.001953,0.007812) white=(0.069336,0.003906)
+[2026-08-22 23:27:10.658] [info] Font diag [after-script-merge:body]: font=0xB4000074AD426020 debug=arial_bold.ttf legacy=21.9px flags=0x0 sources=23 fallback=U+3F requested=21.9px baked=not-inspected
+[2026-08-22 23:27:10.658] [info] Emoji font candidate: path=/system/fonts/NotoColorEmoji.ttf exists=1 file=2961984 bytes tight=1
+[2026-08-22 23:27:10.659] [info] Emoji font strike probe: exists=1 hasUsableBitmapStrike=0
+[2026-08-22 23:27:10.660] [warning] NotoColorEmoji has no usable bitmap strikes (num_fixed_sizes==0); skipping emoji merge to prevent atlas overflow on this ROM (would render emojis as 58px outline glyphs -> atlas > 2048x2048 -> _rwOpenGLRasterSetImage SIGSEGV; see BUGS/1/).
+[2026-08-22 23:27:10.660] [info] Font atlas diag [before-build]: fonts=3 sources=25 texList=1 built=0 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=2048x2048 desiredFormat=0 texId=0x0 texUnique=1 status=2(WantCreate) fmt=0 512x128 bpp=4 pixels=0xB40000713B7E3BC0 bytes=262144 updates=0 used=(0,0 0x0) update=(65535,65535 0x0) useColors=0 uvScale=(0.001953,0.007812) white=(0.069336,0.003906)
+[2026-08-22 23:27:10.660] [info] Font diag [before-build:body]: font=0xB4000074AD426020 debug=arial_bold.ttf legacy=21.9px flags=0x0 sources=23 fallback=U+3F requested=21.9px baked=not-inspected
+[2026-08-22 23:27:10.795] [info] ImFontAtlas::Build result: ok=1
+[2026-08-22 23:27:10.795] [info] Font atlas diag [after-build]: fonts=3 sources=25 texList=6 built=1 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=2048x2048 desiredFormat=0 texId=0x0 texUnique=6 status=2(WantCreate) fmt=0 1024x2048 bpp=4 pixels=0xB400007117415600 bytes=8388608 updates=0 used=(0,0 1023x1145) update=(0,999 1023x146) useColors=0 uvScale=(0.000977,0.000488) white=(0.034668,0.000244)
+[2026-08-22 23:27:10.795] [info] Font diag [after-build:body]: font=0xB4000074AD426020 debug=arial_bold.ttf legacy=21.9px flags=0x0 sources=23 fallback=U+3F baked=0xB40000713B89C000 bakedSize=22.0px density=1.00 glyphs=5967 lookup=65534 advances=65534 fallbackIdx=2 ascent=18.0 descent=-5.0 surface=876210 hasA=1 has0=1 hasQuestion=1 hasReplacement=1
+[2026-08-22 23:27:10.795] [info] Font diag [after-build:weapon]: font=0xB4000074AD426090 debug=gtaweap3.ttf legacy=21.9px flags=0x0 sources=1 fallback=U+3F baked=0xB40000713B89C068 bakedSize=22.0px density=1.00 glyphs=55 lookup=61696 advances=61696 fallbackIdx=2 ascent=23.0 descent=0.0 surface=15072 hasA=1 has0=1 hasQuestion=1 hasReplacement=0
+[2026-08-22 23:27:10.795] [info] Font diag [after-build:sampaux]: font=0xB4000074AD426100 debug=sampaux3.ttf legacy=21.9px flags=0x0 sources=1 fallback=U+20 baked=0xB40000713B89C0D0 bakedSize=22.0px density=1.00 glyphs=20 lookup=61696 advances=61696 fallbackIdx=0 ascent=26.0 descent=3.0 surface=5854 hasA=1 has0=1 hasQuestion=0 hasReplacement=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+F3 (Polish o acute) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+105 (Polish a ogonek) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+17C (Polish z dot) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+404 (Ukrainian uppercase Ye) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+454 (Ukrainian lowercase ye) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+406 (Ukrainian uppercase I) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+456 (Ukrainian lowercase i) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+407 (Ukrainian uppercase Yi) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+457 (Ukrainian lowercase yi) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+490 (Ukrainian uppercase Ghe) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+491 (Ukrainian lowercase ghe) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+E01 (Thai ก) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+10D2 (Georgian gani) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+532 (Armenian ben) colored=0
+[2026-08-22 23:27:10.795] [info] Glyph probe OK: U+1230 (Ethiopic he) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+6D4B (Chinese 测) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+7B80 (Simplified Chinese jian) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+4F53 (Simplified Chinese ti) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+4F86 (Traditional Chinese lai) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+6E2C (Traditional Chinese ce) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+8A66 (Traditional Chinese shi) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+3042 (Japanese あ) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+65E5 (Japanese day) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+672C (Japanese book) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+8A9E (Japanese language) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+C548 (Korean an) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+D55C (Korean han) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+AD6D (Korean guk) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+C5B4 (Korean eo) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+ACC4 (Korean gye) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+1B9E (Sundanese sa) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+2764 (Symbol heart) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+2713 (Symbol check) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+25A3 (Symbol boxed) colored=0
+[2026-08-22 23:27:10.796] [info] Glyph probe OK: U+20AC (Symbol euro) colored=0
+[2026-08-22 23:27:10.796] [warning] Glyph probe MISS: U+1F600 (Emoji 😀) not in atlas
+[2026-08-22 23:27:10.796] [warning] Glyph probe MISS: U+1F595 (Emoji 🖕) not in atlas
+[2026-08-22 23:27:10.796] [info] Font atlas diag [before-raster-bind]: fonts=3 sources=25 texList=6 built=0 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=2048x2048 desiredFormat=0 texId=0x0 texUnique=6 status=2(WantCreate) fmt=0 1024x2048 bpp=4 pixels=0xB400007117415600 bytes=8388608 updates=0 used=(0,0 1023x1150) update=(0,999 1023x151) useColors=0 uvScale=(0.000977,0.000488) white=(0.034668,0.000244)
+[2026-08-22 23:27:10.796] [info] ImGuiWrapper::createFontTexture
+[2026-08-22 23:27:10.796] [info] Font atlas diag [createTexture-before-getTexData]: fonts=3 sources=25 texList=6 built=0 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=2048x2048 desiredFormat=0 texId=0x0 texUnique=6 status=2(WantCreate) fmt=0 1024x2048 bpp=4 pixels=0xB400007117415600 bytes=8388608 updates=0 used=(0,0 1023x1150) update=(0,999 1023x151) useColors=0 uvScale=(0.000977,0.000488) white=(0.034668,0.000244)
+[2026-08-22 23:27:10.796] [info] Font atlas diag [createTexture-after-getTexData]: fonts=3 sources=25 texList=6 built=1 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=2048x2048 desiredFormat=0 texId=0x0 texUnique=6 status=2(WantCreate) fmt=0 1024x2048 bpp=4 pixels=0xB400007117415600 bytes=8388608 updates=0 used=(0,0 1023x1150) update=(0,999 1023x151) useColors=0 uvScale=(0.000977,0.000488) white=(0.034668,0.000244)
+[2026-08-22 23:27:10.796] [info] Atlas built: 1024x2048 (32 bpp, 8 MB)
+[2026-08-22 23:27:10.796] [info] Font image allocated: image=0xB40000734DEDA020 1024x2048 depth=32 stride=4096 pixels=0xB40000710270BF40
+[2026-08-22 23:27:10.796] [info] Font image copy: srcStride=4096 dstStride=4096 copyStride=4096 rows=2048
+[2026-08-22 23:27:10.801] [info] Font raster created: raster=0xB40000734DB11E50 requested=1024x2048
+[2026-08-22 23:27:10.814] [info] RwRasterSetFromImage OK: input=0xB40000734DB11E50 final=0xB40000734DB11E50
+[2026-08-22 23:27:10.814] [info] Font TexData bound to local RenderWare raster: texData=0xB400007359FEAEA0 texId=0xB40000734DB11E50 status=0(OK)
+[2026-08-22 23:27:10.814] [info] Atlas width 1024
+[2026-08-22 23:27:10.814] [info] Atlas height 2048
+[2026-08-22 23:27:10.814] [info] Font atlas diag [after-raster-bind]: fonts=3 sources=25 texList=6 built=1 locked=0 rendererHasTextures=0 flags=0x0 min=512x128 max=2048x2048 desiredFormat=0 texId=0xB40000734DB11E50 texUnique=6 status=0(OK) fmt=0 1024x2048 bpp=4 pixels=0xB400007117415600 bytes=8388608 updates=0 used=(0,0 1023x1150) update=(0,999 1023x151) useColors=0 uvScale=(0.000977,0.000488) white=(0.034668,0.000244)
+[2026-08-22 23:27:10.814] [info] Locked ImGui font baked size: body @ 21.9375px
+[2026-08-22 23:27:10.814] [info] Locked ImGui font baked size: weapon @ 21.9375px
+[2026-08-22 23:27:10.814] [info] Locked ImGui font baked size: sampaux @ 21.9375px
+[2026-08-22 23:27:10.814] [info] Font diag [after-lock:body]: font=0xB4000074AD426020 debug=arial_bold.ttf legacy=21.9px flags=0x8 sources=23 fallback=U+3F baked=0xB40000713B89C000 bakedSize=22.0px density=1.00 glyphs=5968 lookup=65534 advances=65534 fallbackIdx=2 ascent=18.0 descent=-5.0 surface=876903 hasA=1 has0=1 hasQuestion=1 hasReplacement=1
+[2026-08-22 23:27:10.814] [info] Font diag [after-lock:weapon]: font=0xB4000074AD426090 debug=gtaweap3.ttf legacy=21.9px flags=0x8 sources=1 fallback=U+3F baked=0xB40000713B89C068 bakedSize=22.0px density=1.00 glyphs=55 lookup=61696 advances=61696 fallbackIdx=2 ascent=23.0 descent=0.0 surface=15072 hasA=1 has0=1 hasQuestion=1 hasReplacement=0
+[2026-08-22 23:27:10.814] [info] Font diag [after-lock:sampaux]: font=0xB4000074AD426100 debug=sampaux3.ttf legacy=21.9px flags=0x8 sources=1 fallback=U+20 baked=0xB40000713B89C0D0 bakedSize=22.0px density=1.00 glyphs=20 lookup=61696 advances=61696 fallbackIdx=0 ascent=26.0 descent=3.0 surface=5854 hasA=1 has0=1 hasQuestion=0 hasReplacement=0
+[2026-08-22 23:27:10.826] [info] LoadTextureFromFile: loaded blockpunch.png (512x512 -> 512x512)
+[2026-08-22 23:27:10.835] [info] LoadTextureFromFile: loaded blockpunch_hover.png (512x512 -> 512x512)
+[2026-08-22 23:27:11.016] [info] LoadTextureFromFile: loaded alyn_logo.png (1672x941 -> 2048x1024)
+[2026-08-22 23:27:11.017] [info] Settings loaded with defaults
+[2026-08-22 23:27:11.017] [warning] Settings file not found, using defaults: /storage/emulated/0/Android/data/ro.alynsampmobile.launcher/files/widget_settings.json
+[2026-08-22 23:27:11.018] [info] Settings loaded with defaults
+[2026-08-22 23:27:11.018] [info] Settings applied to widgets
+[2026-08-22 23:27:11.020] [info] Initializing EditObject...
+[2026-08-22 23:27:11.036] [error] OS_FileOpen failed (1): Adjustable.cfg
+[2026-08-22 23:27:11.083] [info] Loading timecyc.dat..
+[2026-08-22 23:27:11.253] [info] CTimer_StartUserPause
+[2026-08-22 23:27:11.266] [error] OS_FileOpen failed (1): ALYNSAMP10.b
+[2026-08-22 23:27:11.284] [warning] renderDrawData skipped invalid draw data: ptr=0xB40000749CF25398 vtx=0 idx=0
+[2026-08-22 23:27:11.323] [info] Game::StartGame
+[2026-08-22 23:27:11.323] [info] CTimer_EndUserPause
+[2026-08-22 23:27:11.340] [info] Text renderer diag [first-drawTextRaw]: font=0xB4000074AD426020 default=0xB4000074AD426020 requestedSize=16.9px legacy=21.9px baked=0xB40000713B89C000 glyphs=5968 lookup=65534 atlas=0xB4000074294B4B00 texData=0xB400007359FEAEA0 texId=0xB40000734DB11E50 texStatus=0 texSize=1024x2048 bpp=4
+[2026-08-22 23:27:11.340] [info] ImGuiWrapper::checkVertexBuffer
+[2026-08-22 23:27:11.340] [info] Vertex buffer reallocated. Size 12012
+[2026-08-22 23:27:11.340] [info] renderDrawData first valid frame: cmdLists=1 totalVtx=2012 totalIdx=3174 fb=1732x810 fontRaster=0xB40000734DB11E50 fontTexData=0xB400007359FEAEA0 fontTexId=0xB40000734DB11E50
+[2026-08-22 23:27:11.340] [info] renderDrawData first texture bind: tex=0xB40000734DB11E50 list=0 cmd=0 elem=6 clip=(0.0,0.0,1732.0,810.0)
+[2026-08-22 23:27:11.350] [info] Initializing CPools...
+[2026-08-22 23:27:11.352] [error] OS_FileOpen failed (1): gta3.ini
+[2026-08-22 23:27:11.353] [info] [SafeDxtDecode] 32-bit decoder active (first call: fmt=0x83F3 32x512)
+[2026-08-22 23:27:13.228] [info] Initializing image list...
+[2026-08-22 23:27:13.337] [error] OS_FileOpen failed (1): CINFO.BIN
+[2026-08-22 23:27:13.371] [info] Loading peds.ide..
+[2026-08-22 23:27:13.406] [info] Loading gta.dat..
+[2026-08-22 23:27:13.407] [info] Loading scriptV1.img..
+[2026-08-22 23:27:13.422] [warning] OS_FileOpen retry (case-insensitive): TEXDB/CUTSCENE.IMG
+[2026-08-22 23:27:13.422] [error] OS_FileOpen failed (1): TEXDB\CUTSCENE.IMG
+[2026-08-22 23:27:15.506] [warning] OS_FileOpen retry (case-insensitive): MODELS/MINFO.BIN
+[2026-08-22 23:27:15.507] [error] OS_FileOpen failed (1): MODELS\MINFO.BIN
+[2026-08-22 23:27:15.940] [info] Loading scriptV1.img..
+[2026-08-22 23:27:15.957] [warning] OS_FileOpen retry (case-insensitive): TEXDB/CUTSCENE.IMG
+[2026-08-22 23:27:15.958] [error] OS_FileOpen failed (1): TEXDB\CUTSCENE.IMG
+[2026-08-22 23:27:17.953] [info] Loading tracks2.dat...
+[2026-08-22 23:27:17.955] [info] Loading tracks4.dat...
+[2026-08-22 23:27:18.049] [info] CVehicleStructure pool: 0xb40000713f44fb60 size=50 free=50
+[2026-08-22 23:27:18.349] [info] Loading mainV1.scm..
+[2026-08-22 23:27:18.570] [info] Loading mainV1.scm..
+[2026-08-22 23:27:19.001] [info] Loading mainV1.scm..
+[2026-08-22 23:27:19.002] [info] Memory::saveBytesToMap addr: 0x710f2cea38 bytes: 68 ca 06 bd 
+[2026-08-22 23:27:19.672] [info] Initializing game...
+[2026-08-22 23:27:19.672] [info] Loading AFK icon..
+[2026-08-22 23:27:19.672] [info] Post applying patches...
+[2026-08-22 23:27:19.672] [info] Memory::saveBytesToMap addr: 0x710f173a40 bytes: 08 3c 00 12 
+[2026-08-22 23:27:19.672] [info] Game::Initialize
+[2026-08-22 23:27:19.672] [info] Initiating scripting...
+[2026-08-22 23:27:19.672] [info] AudioStream::Initialize()
+[2026-08-22 23:27:19.672] [info] AudioStream: BASS not initialized, initializing...
+[2026-08-22 23:27:19.725] [info] Initializing client commands..
+[2026-08-22 23:27:19.725] [info] Chat: registered '/q' (stored as '/q')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/quit' (stored as '/quit')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/save' (stored as '/save')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/interior' (stored as '/interior')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/dl' (stored as '/dl')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/fpslimit' (stored as '/fpslimit')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/screenshot' (stored as '/screenshot')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/ss' (stored as '/ss')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/clientcmds' (stored as '/clientcmds')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/rcon' (stored as '/rcon')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/dw' (stored as '/dw')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/clearmychat' (stored as '/clearmychat')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/timestamp' (stored as '/timestamp')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/fontsize' (stored as '/fontsize')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/pagesize' (stored as '/pagesize')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/headmove' (stored as '/headmove')
+[2026-08-22 23:27:19.725] [info] Chat: registered '/radartouch' (stored as '/radartouch')
+[2026-08-22 23:27:19.725] [info] Initializing netgame...
+[2026-08-22 23:27:19.726] [info] NetGame initializing..
+[2026-08-22 23:27:19.732] [info] Registering RPC's..
+[2026-08-22 23:27:19.732] [info] Registering script RPC's..
+[2026-08-22 23:27:19.734] [info] [CONN INIT] target=127.0.0.1:7777 playerName='Player' samp_version=0.3.7 voice=0 auto_reconnect=1 mod_loader=0 cleo=0 aml=0
+[2026-08-22 23:27:20.104] [info] ServiceStatus: verified, service is open
+[2026-08-22 23:27:39.545] [info] CTimer_StartUserPause

@@ -1,0 +1,3 @@
+v17.0
+- Migração do sistema de update para o novo servidor de arquivos.
+- Correções de estabilidade.
