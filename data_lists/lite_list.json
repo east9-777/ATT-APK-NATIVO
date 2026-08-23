@@ -1778,5 +1778,13 @@
       "url": "https://raw.githubusercontent.com/east9-777/ATT-APK-NATIVO/main/game_files/fonts/arial_bold.ttf",
       "gpu": "all"
     }
+  ],
+  "archives": [
+    {
+      "name": "texdb",
+      "path": "texdb",
+      "size": 314572800,
+      "url": "https://github.com/east9-777/ATT-APK-NATIVO/releases/download/texdb-v1/texdb.zip"
+    }
   ]
 }
