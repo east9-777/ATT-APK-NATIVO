@@ -1,10 +1,60 @@
-# Passo a passo — migrar o servidor de update pro GitHub
+# O que mudou nessa versão
 
-## 1. Crie o repositório novo
-No GitHub, crie um repo **público** (raw.githubusercontent.com só funciona com repo público),
-por exemplo `nativo-apk-data`.
+Removi a tela de escolha LITE/FULL e a checagem que causava o "App server is down".
+Agora o fluxo é: abre o app → baixa **um único zip** com todos os dados → extrai
+sozinho na pasta certa → pronto.
 
-## 2. Estrutura de pastas dentro do repo
+## Por que dava o erro mesmo depois de tudo configurado
+
+O `Utils.appStatus()` fazia uma **segunda chamada de rede**, separada da que já
+carregava o `update.json` — e travava o app com aquela mensagem toda vez que essa
+chamada extra falhasse, mesmo que o resto estivesse 100% funcionando. Removi essa
+chamada de dentro do `SplashActivity.java`. Também tirei a tela LITE/FULL, que só
+tinha textos fixos ("900 MB"/"2.3 GB") sem relação com o tamanho real de nada.
+
+## Arquivos alterados (pasta `java/`)
+
+- `SplashActivity.java` → substitui o existente em
+  `app/src/main/java/ro/alynsampmobile/launcher/SplashActivity.java`
+- `Utils.java`, `UpdateService.java`, `ArchiveData.java` → mesmos de antes (ver
+  histórico da conversa), sem mudança nesta etapa.
+
+## Novo esquema de dados: um zip só
+
+Antes: lista de 254+ arquivos individuais, um por um. Agora: **um único
+`gamedata.zip`** com a pasta `files` inteira dentro (tudo que estava em
+`DATA/ro.alynsampmobile.launcher/files`, incluindo a `texdb`).
+
+### Passo a passo
+
+1. No seu computador/celular, junte tudo que estava em
+   `DATA/ro.alynsampmobile.launcher/files/` (data, audio, anim, models, SAMP,
+   fonts, **texdb** etc.) dentro de um único `.zip`, com essas pastas soltas na
+   raiz do zip (não dentro de mais uma pasta "files/" — o `data/` já deve
+   aparecer direto ao abrir o zip).
+2. Confira o tamanho — com a texdb isso deve ficar por volta de 400-450 MB,
+   bem abaixo do limite de 2 GB por arquivo do GitHub Release.
+3. Crie (ou reaproveite) uma Release no GitHub, ex: tag `gamedata-v1`, e suba
+   esse `gamedata.zip` como anexo (mesmo processo que você já fez com a texdb).
+4. Copie o link do asset, algo como:
+   ```
+   https://github.com/SEU_USUARIO/SEU_REPO/releases/download/gamedata-v1/gamedata.zip
+   ```
+5. Abra `data_lists/full_list.json` e `data_lists/lite_list.json` (já vêm
+   prontos aqui, com a mesma estrutura) e troque:
+   - `url` → o link real do seu asset
+   - `size` → o tamanho real do zip em **bytes** (não MB). No Android, ao tocar
+     no arquivo no gerenciador de arquivos costuma mostrar o tamanho exato; ou
+     multiplique o MB mostrado no GitHub por 1.048.576 pra converter pra bytes.
+6. Suba `update.json`, `full_list.json` e `lite_list.json` pro seu repositório,
+   nos mesmos caminhos de antes (veja abaixo). Já deixei todos os arquivos deste
+   pacote com `east9-777/ATT-APK-NATIVO` preenchido — só falta a `url` e o `size`
+   corretos do `gamedata.zip` no passo 5 acima.
+
+Repare que **não precisa mais subir os 254 arquivos individuais** no repositório
+— isso simplifica bastante, já que agora é tudo dentro do zip único.
+
+## Estrutura do repositório (atualizada, mais simples)
 
 ```
 /update.json
@@ -15,104 +65,28 @@ por exemplo `nativo-apk-data`.
 /images/previews.json
 /data_lists/full_list.json
 /data_lists/lite_list.json
-/data_lists/samp_list.json
-/game_files/...   <- toda a pasta "files" do seu DATA.zip vai aqui dentro
+/data_lists/samp_list.json   <- continua vazio, reservado pro futuro
 ```
 
-Suba todos os arquivos desta pasta (`repo_files/`) exatamente nessa estrutura.
-A pasta `game_files/` deve conter o conteúdo inteiro da sua pasta
-`DATA/ro.alynsampmobile.launcher/files` (sem a pasta `texdb`, que você disse ser grande —
-veja a seção 5).
+Não existe mais pasta `game_files/` — os dados do jogo agora vivem só dentro do
+zip anexado na Release.
 
-## 3. Troque east9-777 e ATT-APK-NATIVO
-Em `update.json`, `data_lists/full_list.json`, `data_lists/lite_list.json` e
-`images/previews.json`, troque `east9-777/ATT-APK-NATIVO` pelo seu usuário e nome real do
-repositório. O `full_list.json` e `lite_list.json` anexados já foram gerados a partir
-dos seus 254 arquivos reais (114 MB) — só falta trocar essa parte da URL.
+## Teste
 
-Dica: no app do GitHub (ou até pelo navegador do celular), dá pra usar "editar arquivo"
-e um find & replace rápido em cada JSON.
+1. Substitua `SplashActivity.java` no projeto (e os outros 3 arquivos já
+   ajustados antes, se ainda não tiver feito).
+2. Confira se a `url` e o `size` do `gamedata.zip` em `full_list.json`/
+   `lite_list.json` estão certos (usuário e repo já vêm preenchidos).
+3. Suba tudo pro repo e gere um APK de debug.
+4. Abra o app: ele deve pular direto pra "CHECKING FOR UPDATES" e, se tudo
+   estiver certo, baixar o `gamedata.zip` e extrair sem mostrar mais aquela
+   tela de erro. Acompanhe pelo Logcat se quiser ver o progresso
+   (`UpdateService`, tag "Baixando archive" / "Archive extraido com sucesso").
 
-## 4. Atualize o Utils.java
-Já apliquei as mudanças no arquivo `Utils.java` anexado (pasta `java/`). Ele agora
-aponta pro `https://raw.githubusercontent.com/east9-777/ATT-APK-NATIVO/main/`. Substitua
-o arquivo original do projeto por esse, e troque lá dentro também o placeholder
-`east9-777`/`ATT-APK-NATIVO`, e o link do Discord (`SEU_CONVITE`). Veja a seção 8 para os
-outros dois arquivos novos/alterados (`ArchiveData.java` e `UpdateService.java`).
+Se aparecer algum outro erro nessa etapa, me manda o print/log que eu já vejo o
+que é.
 
-## 5. Sobre a texdb (arquivos grandes, acima de 100 MB)
-GitHub bloqueia arquivos individuais maiores que 100 MB num push normal (sem Git LFS).
-O `gerar_lista.py` já foi atualizado pra lidar com isso automaticamente: qualquer
-arquivo acima de 90 MB (margem de segurança) é listado à parte, num
-`data_lists/arquivos_para_release.json`, com um nome sugerido e a URL já calculada.
-
-Passo a passo (tudo pelo navegador do celular):
-
-1. Abra `https://github.com/east9-777/ATT-APK-NATIVO/releases/new`
-2. Em "Tag version" ponha `texdb-v1` (mesmo valor que está em `RELEASE_URL` no script)
-3. Em "Release title" ponha algo como `Texturas (texdb)`
-4. Toque na área "Attach binaries..." e selecione os arquivos grandes da texdb
-5. **Renomeie cada arquivo** ao subir para o nome indicado em
-   `nome_sugerido_na_release` (evita colisão, já que Release não tem pastas)
-6. Publique a Release
-7. Rode `gerar_lista.py` de novo (com a texdb já dentro da pasta `files/`) — o
-   `full_list.json`/`lite_list.json` já saem com a URL certa apontando pra Release
-   para esses arquivos, e pro repo normal para o resto.
-
-Os arquivos pequenos da texdb (abaixo de 90 MB) continuam indo normalmente dentro de
-`game_files/`, junto com o resto.
-
-
-## 6. Teste
-Depois de subir tudo, abra `https://raw.githubusercontent.com/east9-777/ATT-APK-NATIVO/main/update.json`
-no navegador do celular. Se aparecer o JSON puro (não erro 404), o app já vai conseguir
-ler. Nesse momento os 3 problemas somem: `app_status: true` derruba a mensagem de
-"App server is down", e o `full_list_url`/`lite_list_url` fazem o download funcionar.
-
-## 8. Novo: baixar a texdb como .zip único (sem precisar subir arquivo por arquivo)
-Como você já publicou o `texdb.zip` inteiro na Release `texdb-v1`, adicionei suporte
-no próprio app para baixar esse zip e descompactar sozinho, ao invés de precisar
-listar cada arquivo individualmente.
-
-**O que mudou no código (pasta `java/` deste zip):**
-- `ArchiveData.java` — arquivo novo. Representa um "pacote" (zip) a ser baixado e extraído.
-- `Utils.java` — ganhou o método `extractZip()`, que descompacta um zip com segurança.
-- `UpdateService.java` — agora também lê uma chave `"archives"` (além de `"files"`) no
-  `full_list.json`/`lite_list.json`, baixa o(s) zip(s) listados lá, descompacta na pasta
-  certa, e marca como concluído (não baixa de novo nas próximas checagens, a não ser que
-  você troque o zip e o tamanho no JSON).
-
-**Onde colocar esses arquivos no projeto:**
-- `ArchiveData.java` → `app/src/main/java/ro/alynsampmobile/launcher/utils/ArchiveData.java` (novo)
-- `Utils.java` → substitui o existente em `.../utils/Utils.java`
-- `UpdateService.java` → substitui o existente em `.../launcher/UpdateService.java`
-
-**O `full_list.json`/`lite_list.json` já vêm atualizados** com a entrada do seu
-`texdb.zip` real:
-```json
-"archives": [
-  {
-    "name": "texdb",
-    "path": "texdb",
-    "size": 314572800,
-    "url": "https://github.com/east9-777/ATT-APK-NATIVO/releases/download/texdb-v1/texdb.zip"
-  }
-]
-```
-- `path: "texdb"` → o zip é extraído dentro de `files/texdb/`, recriando as pastas
-  `gta3`, `gta_int`, `menu`, `mobile`, `player`, `samp`, `txd` e os `.img` que aparecem
-  no seu gerenciador de arquivos.
-- `size` → coloquei um valor aproximado (300 MB em bytes). Não precisa ser o tamanho
-  exato do arquivo — só precisa ser o **mesmo número** toda vez que você não quiser
-  forçar o app a baixar de novo. Se um dia você atualizar o `texdb.zip`, troque esse
-  número (qualquer valor diferente do anterior já força novo download).
-
-## 7. Assinatura (problema 1, pendente)
-Isso é independente do resto — quando quiser resolver de verdade (não só a chave de
-teste), me chama que a gente monta o keystore + GitHub Actions, do mesmo jeito que
-fizemos com o EAS Build no PRF app.
-
-**Importante:** teste isso num APK de debug antes de distribuir. É código novo, então
-vale rodar uma vez e conferir no Logcat/pasta de arquivos se `files/texdb/` realmente
-apareceu com as pastas certas depois do update.
-
+## Pendente: Assinatura (problema 1)
+Continua de fora dessa etapa — quando quiser resolver de verdade, me chama que
+a gente monta o keystore + GitHub Actions, do mesmo jeito que fizemos com o EAS
+Build no PRF app.
