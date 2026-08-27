@@ -4,8 +4,14 @@
     {
       "name": "gamedata",
       "path": "",
-      "size": 588,
+      "size": 712046714,
       "url": "https://github.com/east9-777/ATT-APK-NATIVO/releases/download/gamedata-v1/gamedata.zip"
+    },
+    {
+      "name": "hud",
+      "path": "hud",
+      "size": 29081,
+      "url": "https://github.com/east9-777/ATT-APK-NATIVO/releases/download/hud-v1.0/hud.zip"
     }
   ]
 }
